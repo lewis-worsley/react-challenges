@@ -20,6 +20,16 @@ class StatefulGreetingWithPrevState extends React.Component {
         console.log(this.state.buttonText);
         });
     }
+    
+    handleClick() {
+        this.setState({
+            introduction: this.state.introduction === "Hello!" ? "Goodbye" : "Hello!",
+            buttonText: this.state.buttonText === "Exit" ? "Enter" : "Exit",
+        }, ()=>{
+        console.log(this.state.introduction);
+        console.log(this.state.buttonText);
+        });
+    }
 
     // increment() {
     //     this.setState({
