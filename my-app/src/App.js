@@ -7,6 +7,7 @@ import NavBarSimple from './components/NavBarSimple';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 import NestingComponents from './components/NestingComponents';
+import MethodAsPropsParent from './components/MethodAsPropsParent';
 
 
 // function App() {
@@ -47,7 +48,8 @@ import NestingComponents from './components/NestingComponents';
 function App() {
     return (
         <div>
-            <NestingComponents />
+            {/* <NestingComponents /> */}
+            <MethodAsPropsParent />
         </div>
     )
 }
