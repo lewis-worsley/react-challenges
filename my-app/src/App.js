@@ -4,7 +4,8 @@ import StatefulGreeting from './components/StatefulGreetingWithCallback';
 import StatefulGreetingWithCallback from './components/StatefulGreeting';
 import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrevState';
 import NavBarSimple from './components/NavBarSimple';
-
+import ConditionalRenderingClass from './components/ConditionalRenderingClass';
+import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 
 
 // function App() {
@@ -25,10 +26,19 @@ import NavBarSimple from './components/NavBarSimple';
 //   );
 // }
 
+// function App() {
+//     return (
+//         <div>
+//             <NavBarSimple />
+//         </div>
+//     )
+// }
+
 function App() {
     return (
         <div>
-            <NavBarSimple />
+            <ConditionalRenderingClass />
+            <ConditionalRenderingFunctional connected={true}/>
         </div>
     )
 }
