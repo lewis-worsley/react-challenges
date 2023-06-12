@@ -6,6 +6,7 @@ import StatefulGreetingWithPrevState from './components/StatefulGreetingWithPrev
 import NavBarSimple from './components/NavBarSimple';
 import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
+import NestingComponents from './components/NestingComponents';
 
 
 // function App() {
@@ -34,11 +35,19 @@ import ConditionalRenderingFunctional from './components/ConditionalRenderingFun
 //     )
 // }
 
+// function App() {
+//     return (
+//         <div>
+//             <ConditionalRenderingClass />
+//             <ConditionalRenderingFunctional connected={true}/>
+//         </div>
+//     )
+// }
+
 function App() {
     return (
         <div>
-            <ConditionalRenderingClass />
-            <ConditionalRenderingFunctional connected={true}/>
+            <NestingComponents />
         </div>
     )
 }
