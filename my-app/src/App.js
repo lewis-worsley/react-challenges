@@ -8,6 +8,7 @@ import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 import NestingComponents from './components/NestingComponents';
 import MethodAsPropsParent from './components/MethodAsPropsParent';
+import NavBarForm from './components/NavBarForm';
 
 
 // function App() {
@@ -45,11 +46,19 @@ import MethodAsPropsParent from './components/MethodAsPropsParent';
 //     )
 // }
 
+// function App() {
+//     return (
+//         <div>
+//             {/* <NestingComponents /> */}
+//             <MethodAsPropsParent />
+//         </div>
+//     )
+// }
+
 function App() {
     return (
-        <div>
-            {/* <NestingComponents /> */}
-            <MethodAsPropsParent />
+        <div className={css.App}>
+            <NavBarForm />
         </div>
     )
 }
