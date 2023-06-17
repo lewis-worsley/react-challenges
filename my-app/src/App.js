@@ -10,6 +10,7 @@ import NestingComponents from './components/NestingComponents';
 import MethodAsPropsParent from './components/MethodAsPropsParent';
 import NavBarForm from './components/NavBarForm';
 import RenderingLists from './components/RenderingLists';
+import Content from './components/Content';
 
 
 // function App() {
@@ -64,12 +65,22 @@ import RenderingLists from './components/RenderingLists';
 //     )
 // }
 
+// function App() {
+//     return (
+//         <div>
+//             <RenderingLists />
+//         </div>
+//     )
+// }
+
 function App() {
     return (
-        <div>
-            <RenderingLists />
+        <div className={css.App}>
+            < NavBarForm />
+            <SideBar />
+            <Content />
         </div>
-    )
+    );
 }
 
 export default App;
