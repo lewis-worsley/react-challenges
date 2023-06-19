@@ -11,7 +11,11 @@ import MethodAsPropsParent from './components/MethodAsPropsParent';
 import NavBarForm from './components/NavBarForm';
 import RenderingLists from './components/RenderingLists';
 import Content from './components/Content';
-
+import LifeCyclesCDM from './components/LifeCyclesCDM';
+import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from "./components/LifeCyclesCWU";
+import Loader from './components/Loader';
+import ControlledForm from './components/ControlledForm';
 
 // function App() {
 //   return (
@@ -73,14 +77,60 @@ import Content from './components/Content';
 //     )
 // }
 
+// function App() {
+//     return (
+//         <div className={css.App}>
+//             < NavBarForm />
+//             <SideBar />
+//             <Content />
+//         </div>
+//     );
+// }
+
+// function App() {
+//     return (
+//         <div className={css.App}>
+//             <LifeCyclesCDM />
+//         </div>
+//     );
+// }
+
+// export default App;
+
+
+// function App() {
+//     return (
+//         <div className={css.App}>
+//             <LifeCyclesCDU />
+//         </div>
+//     );
+// }
+
+// export default App;
+
+
+// function App() {
+//   return <div>
+//       <LifeCyclesCWU />
+//     </div>;
+// }
+
+// export default App;
+
+
+// function App() {
+//   return <div>
+//       <Content />
+//     </div>;
+// }
+
+// export default App;
+
+
 function App() {
-    return (
-        <div className={css.App}>
-            < NavBarForm />
-            <SideBar />
-            <Content />
-        </div>
-    );
+  return <div className='App'>
+      <ControlledForm />
+    </div>;
 }
 
 export default App;
