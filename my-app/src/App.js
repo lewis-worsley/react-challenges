@@ -120,13 +120,13 @@ import SearchBar from './components/SearchBar';
 // export default App;
 
 
-// function App() {
-//   return <div>
-//       <Content />
-//     </div>;
-// }
+function App() {
+  return <div>
+      <Content />
+    </div>;
+}
 
-// export default App;
+export default App;
 
 
 // function App() {
@@ -147,10 +147,10 @@ import SearchBar from './components/SearchBar';
 // export default App;
 
 
-function App() {
-  return <div className='App'>
-      <SearchBar />
-    </div>;
-}
+// function App() {
+//   return <div className='App'>
+//       <SearchBar />
+//     </div>;
+// }
 
-export default App;
+// export default App;
