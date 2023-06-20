@@ -16,6 +16,8 @@ import LifeCyclesCDU from './components/LifeCyclesCDU';
 import LifeCyclesCWU from "./components/LifeCyclesCWU";
 import Loader from './components/Loader';
 import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
+import SearchBar from './components/SearchBar';
 
 // function App() {
 //   return (
@@ -127,9 +129,27 @@ import ControlledForm from './components/ControlledForm';
 // export default App;
 
 
+// function App() {
+//   return <div className='App'>
+//       <ControlledForm />
+//     </div>;
+// }
+
+// export default App;
+
+
+// function App() {
+//   return <div className='App'>
+//       <UncontrolledForm />
+//     </div>;
+// }
+
+// export default App;
+
+
 function App() {
   return <div className='App'>
-      <ControlledForm />
+      <SearchBar />
     </div>;
 }
 
