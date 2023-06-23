@@ -18,6 +18,12 @@ import Loader from './components/Loader';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
 import SearchBar from './components/SearchBar';
+import HooksCounter from './components/HooksCounter';
+import ControlledFormHooks from './components/ControlledFormHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
+import UseStateWithObjects from './components/UseStateWithObjects';
+import UseEffectCounter from './components/UseEffectCounter';
+import UseEffectCounterContainier from './components/UseEffectCounterContainier';
 
 // function App() {
 //   return (
@@ -120,13 +126,13 @@ import SearchBar from './components/SearchBar';
 // export default App;
 
 
-function App() {
-  return <div>
-      <Content />
-    </div>;
-}
+// function App() {
+//   return <div>
+//       <Content />
+//     </div>;
+// }
 
-export default App;
+// export default App;
 
 
 // function App() {
@@ -154,3 +160,58 @@ export default App;
 // }
 
 // export default App;
+
+
+// function App() {
+//   return <div className='App'>
+//       <HooksCounter />
+//     </div>;
+// }
+
+// export default App;
+
+
+// function App() {
+//   return <div className='App'>
+//       <ControlledFormHooks />
+//     </div>;
+// }
+
+// export default App;
+
+
+// function App() {
+//   return <div className='App'>
+//       <UseStateWithArrays />
+//     </div>;
+// }
+
+// export default App;
+
+
+// function App() {
+//   return <div className='App'>
+//       <UseStateWithObjects />
+//     </div>;
+// }
+
+// export default App;
+
+
+// function App() {
+//   return <div className='App'>
+//       <UseEffectCounter />
+//     </div>;
+// }
+
+// export default App;
+
+
+function App() {
+  return <div className='App'>
+      <UseEffectCounterContainier />
+    </div>;
+}
+
+export default App;
+
