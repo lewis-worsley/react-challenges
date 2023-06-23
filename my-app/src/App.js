@@ -26,6 +26,11 @@ import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainier from './components/UseEffectCounterContainier';
 import ContentHooks from './components/ContentHooks';
 import HTTPRequest from './components/HTTPRequest';
+import HTTPPost from './components/HTTPPost';
+import HTTPHooks from './components/HTTPHooks';
+import ContentAPI from './components/ContentAPI';
+import PostItemAPI from './components/PostItemAPI';
+import Sidebar from './components/Sidebar';
 
 // function App() {
 //   return (
@@ -221,11 +226,44 @@ import HTTPRequest from './components/HTTPRequest';
 // export default App;
 
 
+// function App() {
+//   return <div className='App'>
+//       <HTTPRequest />
+//     </div>;
+// }
+
+// export default App;
+
+
+// function App() {
+//   return <div className='App'>
+//       <HTTPPost />
+//     </div>;
+// }
+
+// export default App;
+
+
+// function App() {
+//   return <div className='App'>
+//       <HTTPHooks />
+//     </div>;
+// }
+
+// export default App;
+
+
 function App() {
-  return <div className='App'>
-      <HTTPRequest />
-    </div>;
+  return (
+    <div className={css.App}>
+      {/* Add your components here */}
+      <NavBarForm />
+      <Sidebar />
+      {/* <Content /> */}
+      {/* <ContentHooks /> */}
+      <ContentAPI />
+    </div>
+  );
 }
 
 export default App;
-
