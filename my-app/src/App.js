@@ -24,6 +24,8 @@ import UseStateWithArrays from './components/UseStateWithArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainier from './components/UseEffectCounterContainier';
+import ContentHooks from './components/ContentHooks';
+import HTTPRequest from './components/HTTPRequest';
 
 // function App() {
 //   return (
@@ -88,12 +90,15 @@ import UseEffectCounterContainier from './components/UseEffectCounterContainier'
 // function App() {
 //     return (
 //         <div className={css.App}>
-//             < NavBarForm />
+//             <NavBarForm />
 //             <SideBar />
-//             <Content />
+//             <ContentHooks />
 //         </div>
 //     );
 // }
+
+// export default App;
+
 
 // function App() {
 //     return (
@@ -207,9 +212,18 @@ import UseEffectCounterContainier from './components/UseEffectCounterContainier'
 // export default App;
 
 
+// function App() {
+//   return <div className='App'>
+//       <UseEffectCounterContainier />
+//     </div>;
+// }
+
+// export default App;
+
+
 function App() {
   return <div className='App'>
-      <UseEffectCounterContainier />
+      <HTTPRequest />
     </div>;
 }
 
