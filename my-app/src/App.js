@@ -31,6 +31,7 @@ import HTTPHooks from './components/HTTPHooks';
 import ContentAPI from './components/ContentAPI';
 import PostItemAPI from './components/PostItemAPI';
 import Sidebar from './components/Sidebar';
+import ContentAPIHooks from './components/ContentAPIHooks';
 
 // function App() {
 //   return (
@@ -261,7 +262,8 @@ function App() {
       <Sidebar />
       {/* <Content /> */}
       {/* <ContentHooks /> */}
-      <ContentAPI />
+      {/* <ContentAPI /> */}
+      <ContentAPIHooks />
     </div>
   );
 }
